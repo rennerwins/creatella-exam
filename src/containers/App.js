@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 
 import Card from '../components/Card/Card'
+import Container from '../components/Layout/Container'
+import Header from '../components/Header/Header'
 
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <Container>
+        <Header />
         <Card />
-      </div>
+      </Container>
     )
   }
 }
